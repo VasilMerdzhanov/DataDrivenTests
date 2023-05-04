@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="3" total="4" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-04-21T08:49:55Z" name="Default suite" finished-at="2023-04-21T08:50:10Z" duration-ms="15781">
+    <groups>
+    </groups>
+    <test started-at="2023-04-21T08:49:55Z" name="Default test" finished-at="2023-04-21T08:50:10Z" duration-ms="15781">
+      <class name="com.in28minutes.datadriventests.Testingss">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:com.in28minutes.datadriventests.Testingss@1e44b638]" started-at="2023-04-21T08:49:55Z" name="beforeTest" finished-at="2023-04-21T08:49:57Z" duration-ms="2347" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method signature="Testings()[pri:0, instance:com.in28minutes.datadriventests.Testingss@1e44b638]" started-at="2023-04-21T08:49:57Z" name="Testings" finished-at="2023-04-21T08:50:10Z" duration-ms="13410" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Testings -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.in28minutes.datadriventests.Testingss@1e44b638]" started-at="2023-04-21T08:50:10Z" name="tearDown" finished-at="2023-04-21T08:50:10Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.in28minutes.datadriventests.Testingss -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

@@ -14,8 +14,8 @@ import org.testng.annotations.Test;
 public class UnSuccessfulLoginBasic1Test {
 	@Test
 	public void testUnsuccessfulLoginWith28Minutes() {
-		//WebDriverManager.chromedriver().setup();
-		System.setProperty("webdriver.chrome.driver", "C:\\Users\\Mythos\\Desktop\\Drivers\\chromedriver.exe"); 
+		WebDriverManager.chromedriver().setup();
+		//System.setProperty("webdriver.chrome.driver", "C:\\Users\\Mythos\\Desktop\\Drivers\\chromedriver.exe"); 
 		WebDriver driver = new ChromeDriver();
 		driver.get("https://mail.bg/auth/lgn");
 		

@@ -66,9 +66,9 @@ public class Testingss {
 		
 		sleep(5);
 		
-		driver.findElement(By.id("input-4")).sendKeys("merdzhanov.vasil@gmail.com");
+		driver.findElement(By.id("input-4")).sendKeys("*******@gmail.com");
 		WebElement login = driver.findElement(By.id("input-5"));
-		login.sendKeys("Hugobosss34@");
+		login.sendKeys("********");
 		driver.findElement(By.className("css-tngcy1")).click();
 		
 		sleep(4);
@@ -105,10 +105,10 @@ public class Testingss {
 		
 		if(isItPositiveTest) {
 			String nameVm = driver.findElement(By.id("user_mail_name")).getText();
-			assertEquals(nameVm, "sartarus");
+			assertEquals(nameVm, "*****");
 		}else {
 			String wrongMsg = driver.findElement(By.id("footer_left")).getText();
-			assertEquals(wrongMsg, "© 2023 Mail.bg");
+			assertEquals(wrongMsg, "Â© 2023 Mail.bg");
 		}
 		
 		driver.quit();
@@ -130,7 +130,7 @@ public class Testingss {
 		
 		Testss loginn = PageFactory.initElements(driver, Testss.class);
 		
-		loginn.login("sartarus@mail.bg", "hugoboss");
+		loginn.login("*******@mail.bg", "*****");
 		
 	}
 

@@ -11,7 +11,6 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.DataProvider;
 
 public class LoginDataProviderCompliteExcelTest {
-	//String[] userIds = {"sartarus@mail.bg", "spark@mail.bg", "noname@mail.bg"};
 	
 	//Create the Data Provider and give the data provider a name
 	@DataProvider(name="user-ids-passwords-excel-data-provider")
@@ -28,21 +27,19 @@ public class LoginDataProviderCompliteExcelTest {
 		System.setProperty("webdriver.chrome.driver", "C:\\Users\\Mythos\\Desktop\\Drivers\\chromedriver.exe"); 
 		WebDriver driver = new ChromeDriver();
 		driver.get("https://mail.bg/auth/lgn");
-		//driver.findElement(By.id("imapuser")).sendKeys("sartarus@mail.bg");
 		driver.findElement(By.id("imapuser")).sendKeys(userIds);
 		WebElement passwordElement = driver.findElement(By.id("pass"));
 		passwordElement.sendKeys(password);	
-		//driver.findElement(By.className("login_button")).click();
 		passwordElement.submit();
 		
 		
 		if(isLoginExpectedToBeSuccessful) {
 //			String errorMessageText = driver.findElement(By.id("footer_left")).getText();
-//			assertEquals(errorMessageText,"© 2022 Mail.bg");
+//			assertEquals(errorMessageText,"Â© 2022 Mail.bg");
 		}else {
 //			String errorMessageText = driver.findElement(By.id("footer_left")).getText();      
 //			--  dava mi greshka pri namiraneto na tozi element !
-//			assertEquals(errorMessageText,"© 2022 Mail.bg");
+//			assertEquals(errorMessageText,"Â© 2022 Mail.bg");
 		}
 		
 		driver.quit();

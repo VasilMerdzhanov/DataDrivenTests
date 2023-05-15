@@ -8,7 +8,6 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.DataProvider;
 
 public class UnSuccessfulLoginDataDrivenBasicTest {
-	//String[] userIds = {"sartarus@mail.bg", "spark@mail.bg", "noname@mail.bg"};
 	
 	//Create the Data Provider and give the data provider a name
 	@DataProvider(name="user-ids-data-provider")

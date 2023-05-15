@@ -27,7 +27,7 @@ public class UnSuccessfulLoginDataDrivenBasicTest {
 		//driver.findElement(By.id("imapuser")).sendKeys("sartarus@mail.bg");
 		driver.findElement(By.id("imapuser")).sendKeys(userIds);
 		WebElement passwordElement = driver.findElement(By.id("pass"));
-		passwordElement.sendKeys("hugoboss");
+		passwordElement.sendKeys("*********");
 	
 		//driver.findElement(By.className("login_button")).click();
 		passwordElement.submit();	

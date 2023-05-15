@@ -19,7 +19,7 @@ public class UnSuccessfulLoginBasic1Test {
 		WebDriver driver = new ChromeDriver();
 		driver.get("https://mail.bg/auth/lgn");
 		
-		driver.findElement(By.id("imapuser")).sendKeys("sartarus@mail.bg");
+		driver.findElement(By.id("imapuser")).sendKeys("*******@mail.bg");
 		WebElement passwordElement = driver.findElement(By.id("pass"));
 		passwordElement.sendKeys("ukh");
 		
